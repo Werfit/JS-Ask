@@ -1,0 +1,4 @@
+.container-fluid#authenticationPage {
+    background: url('../assets/bg.jpg');
+    background-size: cover;
+}

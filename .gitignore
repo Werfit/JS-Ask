@@ -1,0 +1,10 @@
+# NPM
+node_modules/
+
+# Config
+default.json
+logs/
+
+# IDE
+.vscode/
+.DS_Store

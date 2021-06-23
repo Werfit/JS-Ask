@@ -1,0 +1,48 @@
+{
+  "name": "ask",
+  "version": "1.0.0",
+  "description": "Social Network for asking and answering questions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon index.js",
+    "client": "BROWSER=none npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Werfit/Ask.git"
+  },
+  "keywords": [
+    "social",
+    "network",
+    "mern",
+    "react",
+    "express",
+    "sqlite"
+  ],
+  "author": "Viacheslav Iskenderov <iskenderov.vsl@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Werfit/Ask/issues"
+  },
+  "homepage": "https://github.com/Werfit/Ask#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
