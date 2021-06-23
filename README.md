@@ -1,7 +1,7 @@
 ### Installation
 
 First of all, you have to clone this repository by running:
-<pre>git clone https://github.com/werfit/js_ask</pre>
+<pre>git clone https://github.com/werfit/jsask</pre>
 
 Second of all, you need to run next command in the main directory
 <pre>npm i</pre>
